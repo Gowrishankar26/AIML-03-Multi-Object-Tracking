@@ -1,0 +1,2 @@
+sequence,total_frames,total_ground_truth,true_positives,false_positives,false_negatives,id_switches,mota,mota_percent,motp,precision,recall,idf1
+retail_seq,100,185,97,0,88,1,0.5189,51.89,0.9375,1.0,0.5243,0.6879

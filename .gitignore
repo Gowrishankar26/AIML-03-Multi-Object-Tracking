@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch and Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Datasets and Large media
+data/MOT17/
+data/MOT20/
+data/raw/
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar.gz
+
+# Results videos and large checkpoints
+results/videos/*.mp4
+results/videos/*.avi
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS artifacts
+Thumbs.db
+.DS_Store

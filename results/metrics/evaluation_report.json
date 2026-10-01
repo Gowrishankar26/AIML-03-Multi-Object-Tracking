@@ -1,0 +1,15 @@
+{
+    "sequence": "retail_seq",
+    "total_frames": 100,
+    "total_ground_truth": 185,
+    "true_positives": 97,
+    "false_positives": 0,
+    "false_negatives": 88,
+    "id_switches": 1,
+    "mota": 0.5189,
+    "mota_percent": 51.89,
+    "motp": 0.9375,
+    "precision": 1.0,
+    "recall": 0.5243,
+    "idf1": 0.6879
+}

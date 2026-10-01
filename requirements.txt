@@ -1,0 +1,11 @@
+# Multi-Object Tracking Under Occlusion (AIML-03)
+# Core dependencies
+
+numpy>=1.26.0
+scipy>=1.13.0
+opencv-python>=4.10.0
+matplotlib>=3.9.0
+pandas>=2.2.0
+pyyaml>=6.0.0
+ultralytics>=8.3.0
+tqdm>=4.66.0

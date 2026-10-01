@@ -1,0 +1,27 @@
+# Configuration for Multi-Object Tracking Under Occlusion (AIML-03)
+
+detector:
+  model_name: "yolov8n.pt"      # Pretrained nano model for efficient CPU/GPU inference
+  conf_threshold: 0.40          # Minimum detection confidence
+  iou_threshold: 0.45           # NMS IoU threshold for YOLO
+  target_classes: [0]           # Class 0 corresponds to 'person' in COCO
+  device: "cpu"                 # 'cpu' or '0' (for GPU)
+
+tracker:
+  max_age: 30                   # Maximum frames to keep a track alive without new detections (key for occlusion!)
+  min_hits: 3                   # Minimum consecutive detections before a track is considered confirmed
+  iou_threshold: 0.3            # Minimum IoU for Hungarian matching between detection and track prediction
+
+visualization:
+  draw_trajectories: true       # Draw historical center trails
+  trail_length: 30              # Max points in trajectory trail
+  bbox_thickness: 2
+  text_scale: 0.6
+  trail_thickness: 2
+
+paths:
+  data_dir: "data"
+  results_dir: "results"
+  output_videos: "results/videos"
+  metrics_dir: "results/metrics"
+  figures_dir: "results/figures"

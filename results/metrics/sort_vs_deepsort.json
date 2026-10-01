@@ -1,0 +1,24 @@
+{
+    "SORT": {
+        "MOTA": "51.89%",
+        "MOTA_raw": 0.5189,
+        "ID_Switches": 1,
+        "MOTP": 0.9375,
+        "Precision": 1.0,
+        "Recall": 0.5243,
+        "TP": 97,
+        "FP": 0,
+        "FN": 88
+    },
+    "DeepSORT": {
+        "MOTA": "52.43%",
+        "MOTA_raw": 0.5243,
+        "ID_Switches": 0,
+        "MOTP": 0.9391,
+        "Precision": 1.0,
+        "Recall": 0.5243,
+        "TP": 97,
+        "FP": 0,
+        "FN": 88
+    }
+}
